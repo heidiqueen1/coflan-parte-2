@@ -33,7 +33,7 @@ array2 = ["aithana", "laura", array1, "dayanara"];
 forRancio: for (let array in array2) {
   if (array == 2) {
     for (let array of array1) {
-      continue forRancio;
+      continue forRancio; //salta todo el bucle
       document.write(array + "<br>");
     }
   } else {
@@ -50,7 +50,7 @@ array2 = ["aithana", "laura", array1, "dayanara"];
 forRancio: for (let array in array2) {
   if (array == 2) {
     for (let array of array1) {
-      break forRancio;
+      break forRancio;//forRancio procura que se detenga todo el bucle
       document.write(array + "<br>");
     }
   } else {
